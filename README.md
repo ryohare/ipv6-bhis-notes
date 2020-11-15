@@ -56,8 +56,8 @@ These are notes about IPv6 from BHIS's presentation on [IPv6 by Joff Thyer](http
 * Multicast
 	* 4 least sig bits in second octet of IPv6 Adress
 	* Format
-		* FF0<s>::
-			* <s> is the scope of the multicast address
+		* FF0_SCOPE_::
+			* _SCOPE_ is the scope of the multicast address
 			* Various predefined ones
 * Mutlicast Scopes
 	* FF00:: Unused
